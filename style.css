@@ -1,7 +1,48 @@
-.hako1{
-  background-color: black;/* 背景の色の設定 */ 
-  height: 80px;/* 高さ */
-  width:80px;/* 幅 */
-  color: red/*　文字色  */
+.black-square{
+  position: relative;
+  background-color: black; /* 背景の色の設定 */ 
+  height: 80px; /* 高さ */
+  width:80px; /* 幅 */
+  color: red;/*　文字色  */
+  left: 17px;
+top: 17px;
 }
+
+.red-square{
+  position: relative; /* 場所：相対的 */
+  background-color: red;
+  height:40px;
+  width: 40px;
+  left: 20px;
+  bottom: 3px;
+}
+
+.blue-triangle{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0px 20px 40px 20px; /*配置、 左、下、右 */
+border-color: transparent transparent #007bff transparent;
+}
+
+.green-circle{
+  border-radius: 50%;
+  height: 114px;
+  width: 114px;
+  background-color: green;
+  position: relative;
+  top:calc(50% - 57px);
+  left:calc(50% - 57px);
+
+  
+
+}
+
+html,
+body{
+  height: 100%;
+  margin: 0;
+}
+
 /* コントロールスラッシュ */
+/*  */
